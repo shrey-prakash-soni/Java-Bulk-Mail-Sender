@@ -26,7 +26,7 @@ public class JavaMailSender {
 		System.out.println("Enter Password(If 2FA is enabled use application password): ");
 		String password = scn.nextLine();
 		
-		System.out.println("Enter To-Email Address): ");
+		System.out.println("Enter To-Email Address: ");
 		String toEmail = scn.nextLine();
 		
 		System.out.println("Enter Subject: ");
