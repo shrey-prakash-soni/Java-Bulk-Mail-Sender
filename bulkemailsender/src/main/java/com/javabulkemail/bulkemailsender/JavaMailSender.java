@@ -35,7 +35,7 @@ public class JavaMailSender {
 		System.out.println("Enter Message: ");
 		String message = scn.nextLine();
 		
-		System.out.println("Enter Total Number of Emails To Send(1-150): ");
+		System.out.println("Enter Total Number of Emails To Send: ");
 		int totalMessagesToSend = scn.nextInt();
 		
 		scn.close();
