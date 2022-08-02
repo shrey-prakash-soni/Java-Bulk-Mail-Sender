@@ -20,7 +20,7 @@ public class JavaMailSender {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		
-		System.out.println("Enter From-Email: ");
+		System.out.println("Enter From-Email Address: ");
 		String email = scn.nextLine();
 		
 		System.out.println("Enter Password(If 2FA is enabled use application password): ");
